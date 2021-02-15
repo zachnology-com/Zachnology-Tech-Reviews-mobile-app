@@ -28,16 +28,75 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.0
+  flutter_webview_plugin: ^0.3.11
+  flutter_inappwebview: any
+  permission_handler: ^5.1.0+2
+  flutter_twitter_login: ^1.1.0
+  oauth1: ^1.0.6
+  share: ^0.6.5+4
+  circular_reveal_animation: ^1.1.5
+  github_sign_in: ^0.0.1
+  flutter_facebook_auth: ^2.0.2
+  material_design_icons_flutter: ^4.0.5855
+  webview_flutter: ^1.0.7
+  eva_icons_flutter: ^2.0.1
+  url_launcher: ^5.7.10
+  firebase_messaging: ^7.0.3
+  app_settings: ^4.0.4
+  flutter_unicons: ^0.0.3
+  http: ^0.12.2
+  firebase_core: any
+  firebase_auth: any
+  vibration: ^1.7.3
+  google_sign_in: ^4.4.4
+  quick_actions: ^0.4.0+10
+  firebase_auth_oauth: any
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_launcher_icons: "^0.8.0"
+  flutter_native_splash: ^0.2.7
+  change_app_package_name: ^0.1.2
+  build_runner: ^1.0.0
+  animated_bottom_navigation_bar: ^0.2.1
 
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/apk-icon.png"
+  adaptive_icon_background: "#24527A"
+
+flutter_native_splash:
+  color: "#42a5f5"
+  image: assets/splash.jpg
+  android_gravity: fill
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 
 # The following section is specific to Flutter.
 flutter:
+  assets:
+    - assets/logo-transparent5.png
+    - assets/fulllogocircle.png
+    - assets/173012.png
+    - assets/logo-transparent-inverted.png
+    - assets/google_logo.png
+    - assets/apk-icon.png
+    - assets/white-google-logo.png
+    - assets/Twitter_logo_white.png
+    - assets/yahoo_logo.png
+    - assets/splash.jpg
+  fonts:
+    - family: ZachnologyEuclid
+      fonts:
+        - asset: fonts/ZachnologyEuclid.ttf
+    - family: Bungee
+      fonts:
+        - asset: fonts/Bungee-Regular.ttf
+    - family: ProductSans
+      fonts:
+        - asset: fonts/ProductSans-Regular.ttf
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
