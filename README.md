@@ -1,6 +1,6 @@
-# zachnologytechreviews
+# Zachnology Tech Reviews
 
-The Zachnology Tech Reviews mobile app
+The mobile app for Zachnology Tech Reviews where you can submit voice message, listen to our podcast, get instant notification updates, contribute to our podcast, and create an account for a personalized experience.
 
 ## Getting Started
 
